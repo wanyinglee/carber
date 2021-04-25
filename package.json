@@ -1,6 +1,6 @@
 {
-  "homepage": "http://wanyinglee.github.io/arber",
-  "name": "arber",
+  "homepage": "http://wanyinglee.github.io/carber",
+  "name": "carber",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
