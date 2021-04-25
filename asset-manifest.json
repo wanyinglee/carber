@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/arber/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/arber/static/js/main.62ecf06e.chunk.js",
+    "main.js.map": "/arber/static/js/main.62ecf06e.chunk.js.map",
+    "runtime-main.js": "/arber/static/js/runtime-main.f00570e3.js",
+    "runtime-main.js.map": "/arber/static/js/runtime-main.f00570e3.js.map",
+    "static/css/2.c51d807b.chunk.css": "/arber/static/css/2.c51d807b.chunk.css",
+    "static/js/2.80f4733f.chunk.js": "/arber/static/js/2.80f4733f.chunk.js",
+    "static/js/2.80f4733f.chunk.js.map": "/arber/static/js/2.80f4733f.chunk.js.map",
+    "static/js/3.b633eddc.chunk.js": "/arber/static/js/3.b633eddc.chunk.js",
+    "static/js/3.b633eddc.chunk.js.map": "/arber/static/js/3.b633eddc.chunk.js.map",
+    "index.html": "/arber/index.html",
+    "static/css/2.c51d807b.chunk.css.map": "/arber/static/css/2.c51d807b.chunk.css.map",
+    "static/css/main.9d5b29c0.chunk.css.map": "/arber/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.80f4733f.chunk.js.LICENSE.txt": "/arber/static/js/2.80f4733f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f00570e3.js",
+    "static/css/2.c51d807b.chunk.css",
+    "static/js/2.80f4733f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.62ecf06e.chunk.js"
+  ]
+}
