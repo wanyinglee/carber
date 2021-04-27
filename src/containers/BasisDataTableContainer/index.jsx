@@ -25,12 +25,14 @@ const BasisDataTableContainer = () => {
   const getAnnualizedBasis = useCallback((indexInfo, exchangeInfo) => {
     const rate = getBasisRate(indexInfo);
     if (indexInfo.symbol.indexOf('_PERP') > -1) {
-      return Math.pow(1 + Number(indexInfo.lastFundingRate), 365 * 3) - 1;
+      //return Math.pow(1 + Number(indexInfo.lastFundingRate), 365 * 3) - 1;
+      return Number(indexInfo.lastFundingRate) * 365 * 3;
     } else {
       const expiryDate = exchangeInfo.filter(info => info.symbol === indexInfo.symbol)[0].deliveryDate;
       const currentDate = indexInfo.time;
       const ratio = 365 * 24 * 3600 * 1000 / (expiryDate - currentDate);
-      return Math.pow(1 + Number(rate), ratio) - 1;
+      //return Math.pow(1 + Number(rate), ratio) - 1;
+      return Number(rate) * ratio;
     }
   }, [getBasisRate]);
 
